@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/72db50c9b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark navbarbg-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="img/Logo-2.png" width="350" class="img-fluid" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav h5 " >
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Paquetes y Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Quiero Contratar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:aqua;"href="#">Mi Cuenta</a>
+                  </li>
+                  <li class="nav-item">
+                    
+                        <button class="btn btn-md btn-warning font-weight-bold"  style="color: indigo; font-size: large;" >Pagar en Linea</button>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-facebook-f fa-xl"></i>
+                    </a>
+                  </li>
+                  
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </nav>
+    <!--DivSearch-->
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-dark searchBarBg" >
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+              <ul class="navbar-nav h5 " >
+                
+                <li class="nav-item">
+                  <span style="color:darkgrey;">Tu puerta al entretenimiento</span>
+                </li>
+                <li class="nav-item">
+          <select class="select-css"id="selectCity"name="select" >
+            <option hidden selected>Estado</option>
+            <option value="value1">Chihuahua</option>
+            <option value="value2">Durango</option>
+            <option value="value3">Zacatecas</option>
+          </select>
+                </li>
+                <li class="nav-item">
+                  <select class="select-css" id="selectSursal"name="select2" placeholder="Sucursal">
+                    <option hidden selected>Sucursal</option>
+                    <option value="value1"></option>
+                    <option value="value2"></option>
+                    <option value="value3"></option>
+                 </select>
+                </li>
+               
+                <li class="nav-item" style="text-align: center;">
+                  
+                      <button class="btn btn-sm btn-warning font-weight-bold"  style="color: indigo; font-size: large;" >Ver Sucursal</button>
+                  
+                </li>
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </nav>
+
+   
+    <!--Carousel-->
+    
+    <div id="banner" >
+      <div class="row">
+       
+        <img src="img/tv.png" alt="" width="100%">
+        
+        <figcaption>
+          <div class="row cosmotitle">
+            <span class="cosmoword"> <i class="fa-solid fa-plus" style="color:crimson;"></i>COSMO</span>
+            <span>CABLE</span>
+          </div>
+
+        <div class="row mascanalestxt barramegas">
+          <span>Mas canales de televisión y</span>
+          <span class="megas">Más Megas</span>
+          <span>de internet</span>
+        </div>
+
+       
+        <div class="row tupuertatxt">
+          <span><h2>Tu puerta al</h2></span>
+          <span><h1>ENTRETENIMIENTO</h2></span>
+        </div>
+      
+      </figcaption>
+        
+          
+          
+      </div>
+      
+    </div>
+      <!--FAORMAS DE PAGO-->
+      <div id="PY" class="justify-content-center container-fluid " style="text-align: center;">
+      <div >
+           <h2 class="font-weight-bold pt-100" style="color:indigo;" >Formas de pago </h2 > 
+        <div class="FPicons" style="padding-bottom: 30px;">
+           
+            <ul>
+                <a>
+                    <img src="../CosmoPlus/img/visa.png" width="70" > 
+                
+                    <img src="../CosmoPlus/img/Mastercard.png" width="70"> 
+                
+                    <img src="../CosmoPlus/img/Carnet.png" width="70"> 
+                
+                    <img src="../CosmoPlus/img/oxxo.png" width="70"> 
+                
+                    <img src="../CosmoPlus/img/appstore.png" width="70"> 
+                
+                    <img src="../CosmoPlus/img/playstore.png" width="70"> 
+                
+                
+            </ul>
+
+        </div>
+        <p style="color:slategray;">Puedes pagar en cualquier OXXO o descargar nuestra app, tambien con <br>tarjeta de credito
+            accediendo a nuestro sistema de pago en linea.
+        </p>
+        <a class="nav-link " href="#">
+            <button class="btn btn-lg font-weight-bold" style="background-color:crimson; color:antiquewhite;" >Pagar en linea</button>
+        </a>
+    </div>
+      </div>
+      
+    <!--CARDS-->
+    <div id="promociones ">
+        <div class="justify-content-center text-align-center container-fluid">
+          
+            <div class="row row-cols-md-1 row-cols-lg-2">
+                <div class="col-md cardText cardpromotxt">
+                    
+                        
+                        <h1 style="color: indigo;">+ 100 canales de <br> Entretenimiento</h1>
+                        <h2>+ 100 canales<br> de entretenimiento</h2>
+                        <h5>Los mejores Canales de televisión <br>y Navegación por Internet</h5>
+                          <a href="#" class="btn btn-primary  w-50 font-weight-bold" style="background-color: indigo;">Ver Paquetes</a>
+                        
+                      
+                </div>
+                <div class="col-md">
+                    <img src="img/card-1.png" class="img-fluid" >
+
+                </div>
+
+            </div>
+            <div class="row row row-cols-md-1 row-cols-lg-2">
+                <div class="col-md">
+                    <img src="img/card-2.png" class="img-fluid">
+
+                </div>
+                <div class="col-md cardText cardpromotxt">
+                  <h1 style="color: crimson;">+ Telefonía Fija</h1>
+                  <h2>Habla lo que quieras, <br> con quien quieras</h2><br>
+                  <h5>Lllamadas a numeros fijos y celulares <br>con nuestros paquetes de telefonía fija</h5>
+                    <a href="#" class="btn btn-primary w-50 font-weight-bold" style="background-color:crimson;">Ver Paquetes</a>
+
+                </div>
+
+            </div>
+          
+            
+            
+        </div>
+        
+    </div>
+    <!--InternetPath-->
+    <div id="internetAltaVelocidad" class="navebg">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-3"></div>
+        <div class="col-7">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+          <div class="col-sm ">
+           <h1> <i  style="color:gold;"class="fa-solid fa-wifi"></i>+Internet de<br>Alta Velocidad</h1>
+            <h4>*Revisa ciudades disponibles</h4>
+          </div>
+          <div class="col-sm" >
+            <img src="img/nave.png"  class="img-fluid"width="550">
+          </div>
+        </div>
+        <div class="row row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+          <div class="col-sm">
+            <button class="btn btn-sm font-weight-bold img-fluid"  style="background-color: rgb(23, 66, 158); font-size: 3.5vmin;" ><i class="fa-solid fa-phone"></i> Contratar Ahora*</button>
+          </div>
+          <div class="col-sm ">
+            <h4>Conectados en tu casa<br> para tu escuela o trabajo</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </div>
+        <div class="row">
+          <div class="col-sm">
+            
+            <p>Complementa tus actividades diarias con un modem inalambrico 5G,<br>
+              Asistencia telefonica, instalación gratiuta y descuesto por pronto pago.</p>
+            
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+    <!--COBERTURA-->
+    <div id="coberturaPath" >
+        <div class="container-fluid">
+          <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-2">
+            <div class="col square1" style="text-align: center;">
+              <div class="row">
+                <h2 class=" text-shadow h1 " >Cobertura</h2>
+            </div>
+            <div class="row  row-cols-3 row-cols-sm-1 row-cols-md-3 ">
+                <div class="col-sm ">
+                  <img src="img/mapa-1.png" alt="" class="w-100">
+                  <div ><span class="h5 ">Zacatecas</span><p>1 ciudad</p></div>
+                </div>
+                <div class="col-sm">
+                  <img src="img/mapa-2.png" alt="" class="w-100">
+                  <div ><span class=" h5 ">Chihuahua</span><p>9 ciudades</p></div>
+                </div>
+                <div class="col-sm">
+                  <img src="img/mapa-3.png" alt="" class="w-100">
+                  <div ><span class="h5 ">Durango</span><p>11 ciudades</p></div>
+                </div>
+                
+            </div>
+            </div>
+            <div class="col square2" style="background-color:lightgray; text-align: center;">
+             
+              <div class="row square2row">
+                <div class="text-center "><span style="color: rgb(97, 23, 158);" class="font-weight-bold h1">Estamos en <br>3 estados</span></div>
+              </div>
+              <div class="row square2row">
+                <div class="text-center "><span class="font-weight-bold h3">Revisa nuestra cobertura, somos<br>una empresa en crecimiento</span></div>
+              </div>
+              <div class="row square2row">
+                <div class="text-center "><span class=" h5">Revisa nuestras sucursales disponibles y ¡contrata ya!</span></div>
+              </div>
+              <div class="row square2row ">
+               <div class="row">
+               
+               
+               
+
+                   <button class="btn font-weight-bold" style="background-color: rgb(97, 23, 158);color: antiquewhite;"type="button">
+                    
+                     <span>Ver paquetes </span>
+                   </button>
+               </div>
+              </div>
+              <div class="row">
+                <p>*Los precios y paquetes pueden varias según la ciudad</p>
+              </div>
+              
+            </div>
+          </div>
+            
+           
+        </div>
+        
+    </div>
+
+   <!--PAQUETES-->
+   <div id="paquetesPath">
+
+    <div class="container-md card-paquetes" id="">
+      
+     <div class="row text-center ">
+       <h1 class="font-weight-bold "style="color: lightgray;">Paquetes de internet</h1>
+       <h4 style="color: lightgray;">¡Complementa tus actividades!</h4>
+     </div>
+
+     <div class="row container-fluid paquetesBox row-cols-1 row-cols-sm-1 row-cols-lg-5" >
+<div class="col"></div>
+        <div class="col colPaquetes">
+         <div class=" paquete ">
+          <i  style="color:rgb(85,41,207);"class="fa-solid fa-wifi fa-2xl"></i><br>
+            <span style="color: rgb(85,41,207);" class="paquetembps">10</span>
+            <span class="font-weight-bold"><h2>Mbps</h2></span>
+            <span class="preciomes">desde</span>
+            <div class="precio">
+              <span class="cant">$399</span>
+              <span class="preciomes">x mes</span>
+            </div> 
+         </div>
+        </div>
+         
+        <div class="col colPaquetes">
+          <div class=" paquete">
+           <i  style="color:rgb(85,41,207);"class="fa-solid fa-wifi fa-2xl"></i><br>
+             <span style="color: rgb(85,41,207);" class="paquetembps">30</span>
+             <span class="font-weight-bold"><h2>Mbps</h2></span>
+             <span class="preciomes">desde</span>
+             <div class="precio">
+               <span class="cant">$499</span>
+               <span class="preciomes">x mes</span>
+             </div> 
+          </div>
+         </div>
+
+         <div class="col colPaquetes">
+          <div class=" paquete">
+           <i  style="color:rgb(85,41,207);"class="fa-solid fa-wifi fa-2xl"></i><br>
+             <span style="color: rgb(85,41,207);" class="paquetembps">50</span>
+             <span class="font-weight-bold"><h2>Mbps</h2></span>
+             <span class="preciomes">desde</span>
+             <div class="precio">
+               <span class="cant">$599</span>
+               <span class="preciomes">x mes</span>
+             </div> 
+          </div>
+         </div>
+       
+    <div class="col"></div>
+     </div>
+
+     <div class="row text-center">
+       <div class="col-sm " >
+       <h3 style="color: gold;">Conectados en tu casa, escuela y trabajo</h3>
+       <h5 style="color: lightgray;">Con un modem inalambrico 5G, asistencia telefónica,<br> instalación gratuita y descuento por pronto pago.</h5>
+      </div>
+       <div class="col-sm " >
+        <button class="btn  font-weight-bold"  style="background-color: crimson; color: lightgray;" ><i class="fa-solid fa-phone"></i> Contratar Ahora*</button>
+      </div>
+     </div>
+    </div>
+    
+     <div class="row  scaled" id="imagespaquetesPath">
+       <div class="col scaled">
+        <img src="img/paquetes-1.png" >
+       </div>
+       <div  class="col-sm  text-center font-weight-bold tableIPP">
+        <div style="background-color: white; color:crimson;"class="row ">
+          <h4>BONO $100 x MES</h4>
+        </div>
+        <div style="background-color: crimson; color: white;" class="row">
+          <h3>PRONTO PAGO*</h3> 
+        </div>
+        <div class="row" style="color: lightgray; text-align: start;">
+          <h5>|Revisa tu fecha de corte</h5>
+        </div>
+      
+       
+     </div>
+    
+   </div> 
+   </div>
+<!--LOCATIONPATH-->
+<div id="locationPath">
+  <div class="row container-fluid" style="color: indigo; ">
+    <div class="col">
+      <h2>Sucursal de 
+        <i class="fa-solid fa-plus" style="color:crimson;"></i>
+        <i class="fa-solid fa-plus" style="color:gold"></i>
+        <i class="fa-solid fa-plus" style="color:indigo"></i></h2>
+      <h1 class="font-weight-bold"><i class="fa-solid fa-location-dot"></i>  Cada vez mas cerca de ti</h1>
+      <h3 class="font-weight-bold" style="color: rgb(104, 42, 148);">Durango - Chihuahua - Zacatecas</h3>
+    </div>
+    <div class="col">
+      <h2>Disfruta los mejores</h2>
+      <h2 class="font-weight-bold">Servicios para tu hogar</h2>
+    </div>
+  </div>
+
+</div>
+
+<!--FOOTER-->
+    <div id="footer" >
+      <div class="container-fluid pt-5 footerClass">
+        <div class="row row-cols-md-2">
+          <div class="col ">
+            <img src="img/Logo-3.png" width="300vw">
+            
+          
+        </div>
+        </div>
+        <div class="row ">
+        <div class="row justify-content-md-start py-5">
+          <div class="col font-weight-light">
+            <p><h5 class="font-weight-bold">Dirección.</h5></p>
+            <p class="lh-sm">Blas Corral #360 Sur CP 34000 Durango, Dgo.<br>
+              Responsable: Ing. Efraín Villalobos Corral<br>
+              ® Derechos reservados Cosmocable S.A. de C.V.</p>
+              <br>
+
+            <p><h5 class="font-weight-bold">Nosotros.</h5></p>
+            <p >Acerca de Cosmocable</p>
+            <p>Bolsa de Trabajo</p>
+            <p >Ventas</p>
+            <p>Canal 15</p>
+            <p>Anunciantes</p>
+            <br>
+
+            <p><h5 class="font-weight-bold">TÉRMINOS LEGALES.</h5></p>
+            <p class="lh-sm">Carta de derechos minimos de los usuarios de los servicios públicos de telecomunicaciones</p>
+            <p>Código de prácticas comerciales</p>
+            <p>Folio de registro de tarifas</p>
+            <p>Lineamientos de telecomunicaciones (DOF)</p>
+            <p>Lineamientos de servicio fijo (DOF)</p>
+            <p>Contratación</p>
+            <p>Cancelación</p>
+            <p>Instalación</p>
+            <p>Trámites</p>              
+          </div>
+
+          <div class="col font-weight-light">
+            <p><h5 class="font-weight-bold">SUCURSALES</h5></p>
+            <p><h6 style="color: crimson;"class="font-weight-bold">CHIHUAHUA</h6></p>
+            <p>Aldama</p>
+            <p>Guachochi</p>
+            <p>La Junta</p>
+            <p>Madera</p>
+            <p>San Juanito</p>
+            <p>Guerrero</p>
+            <p>Jimenez</p>
+            <p>Ojinaga</p>
+            <p>Santa Bárbara</p>
+            <br>
+
+            <p><h6 style="color: crimson;"class="font-weight-bold">DURANGO</h6></p>
+            <p>Canatlán</p>
+            <p>Guadalupe Victoria</p>
+            <p>Nuevo Ideal</p>
+            <p>Villa Union</p>
+            <p>Rodeo</p>
+            <p>Cuencame</p>
+            <p>Nombre De Dios</p>
+            <p>Fco. I Madero</p>
+            <p>El Salto</p>
+            <p>Santiago Papasquiaro</p>
+            <p>Vicente Guerrero</p>
+            <br>
+
+            <p><h6 style="color: crimson;"class="font-weight-bold">ZACATECAS</h6></p>
+            <p>Chalchihuites</p>
+          </div>
+
+          <div class="col font-weight-light">
+            <p><h5 class="font-weight-bold">SERVICIOS</h5></p>
+            <p>Telefonía Fija</p>
+            <p>TV por cable</p>
+            <p>Internet</p>
+            <p>Dudas y Soporte</p>
+            <p>Contrataciones</p>
+            <p>Pago de Servicios</p>
+            <p>Preguntas Frecuentes</p>
+            <br>
+
+            <p><h5 class="font-weight-bold justify-content-center">FORMAS DE PAGO</h5></p>
+            <div class="row">
+              <div class="col-2">
+                <img src="img/visa.png" width="30px">
+              </div>
+              <div class="col-2">
+                <img src="img/Mastercard.png" width="30px">
+              </div>
+              <div class="col-2">
+                <img src="img/Carnet.png" width="30px">
+              </div>
+              <div class="col-2">
+                <img src="img/oxxo.png" width="30px">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <img src="img/appstore.png" width="60px">
+              </div>
+              <div class="col-3">
+                <img src="img/playstore.png" width="60px">
+              </div>
+            </div>
+            <br>
+            <p>o en cualquier sucursal</p>
+            <br>
+
+            <p><h5 class="font-weight-bold">OTROS</h5></p>
+            <p>Ifetel</p>
+            <p>Grupo Garza Limon</p>
+            <p>Canal 15 Programación</p>
+            <p>Cosmocarrier</p>
+          
+        </div>
+        <div class="col font-weight-light">
+          <a>
+            <img src="img/logo-4.png" width="100px">
+          </a>
+          <p><h6 class="font-weight-bold">Tu puerta al entretenimiento</h6></p>
+          <br>
+
+          <p><h4 class="font-weight-bold">CONTACTO</h4></p>
+          <div class="col">
+            <h6>Gerencia</h6>
+            <p>618 123 4567</p>
+          </div>
+          <div class="col">
+            <h6>Ventas</h6>
+            <p>618 123 4567</p>
+          </div>
+          <br>
+
+          <h6>atencion@cosmocable.mx</h6>
+          <a href="#"> <i style="color: darkgrey;"class="fa-brands fa-facebook fa-2xl" ></i></a>
+          <a href="#"> <i style="color: darkgrey;"class="fa-brands fa-instagram-square fa-2xl"></i></a>
+          <a href="#"> <i style="color: darkgrey;"class="fa-brands fa-twitter-square fa-2xl"></i></a>
+          <br>
+
+        
+          <br> <h6>Soporte / Ayuda</h6>
+         <p>618 123 4567</p> 
+         <br>
+
+         <h6>WhatsApp</h6>
+         <p>618 123 4567</p> 
+         <br>
+
+         <h6>Bolsa de trabajo</h6>
+         <h6>Soporte tecnico</h6>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+    <div class="text-center" id="bottonFooter">
+      
+      <span >COSMOCABLE.MX</span>
+      
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
